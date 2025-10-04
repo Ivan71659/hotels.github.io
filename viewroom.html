@@ -1,0 +1,204 @@
+<head>
+  <style>
+    body {
+      background-color: #FACCFF;
+      font-weight: 400;
+      font-style: normal;
+      margin: 0; 
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: black;
+      padding: 20px;
+    }
+
+    table {
+      margin: 20px auto; 
+    }
+      
+    .link {
+      text-decoration: none;
+      margin: 0 100px;
+      color: white;
+      padding: 20px;
+    }
+    .link:hover {
+      background-color: #555;
+    }
+    
+    .carousel {
+      position: relative;
+      width: 800px;
+      height: 600px;
+      overflow: hidden;
+      margin: 40px auto; 
+      display: block;
+    }
+
+    .carousel-images {
+      position: relative;
+      height: 400px;
+    }
+
+    .carousel-images img {
+      transition: opacity 0.5s ease;
+      width: 800px;
+      height: 400px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      z-index: 1;
+    }
+
+    .carousel-images img.active {
+      opacity: 1;
+      z-index: 2;
+    }
+
+    .before,
+    .after {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+
+      background-color: lightgray;
+      color: white;
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+      font-size: 20px;
+    }
+
+    .before {
+      left: 0;
+    }
+
+    .after {
+      right: 0;
+    } 
+    
+    table {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    td{
+      border: 1px solid black;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <a class="link" href="index.html">Home Page</a>
+    <a class="link" href="viewroom.html">View Room</a>
+  </header>
+  
+  <div class="carousel">
+    <div class="carousel-images">
+      <img src = "https://www.fairmont-hotel-vancouver.com/content/uploads/2023/05/HotelVancouver_Deluxe-King_horizontal-scaled.jpg" width = "800" height = "200">
+      <img src = "https://www.fairmont-hotel-vancouver.com/content/uploads/2023/07/Fairmont-Hotel-Vancouver-Lobby.jpg" width = "800" height = "200">
+      <img src = "https://images.getaroom-cdn.com/image/upload/s--w8X3hseU--/c_limit,e_improve,fl_lossy.immutable_cache,h_460,q_auto:good,w_460/v1748451632/0a9cb08a3deddeea87e9fc6addc83c706e7111fa?_a=BACAEuDL&atc=e7cd1cfa" width = "800" height = "200">
+    </div>    
+    
+    <h2>Amenities</h2>
+    <table>
+        <tr>
+          <td> Price </td>
+          <td> Size </td>
+          <td> Beds </td>
+          <td> Free WIFI </td>
+          <td> Included Breakfast </td>
+        </tr>
+        <tr>
+          <td> $500/night </td>
+          <td> 250sq ft </td>
+          <td> 1 King</td>
+          <td> Yes </td>
+          <td> Yes </td>
+        </tr>
+    </table>
+  </div>
+
+  <div class="carousel">
+    <div class="carousel-images">
+      <img src = "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noQAwAqOe2tyRNOGtv4ziqg-DiKp6DciW11zl0DS_VM5B6gYRj2Gw8njzDpPXUH0wl1-prHOWeKH6HzQVuYzxxSblAEBqTyfHmVWE0YddDdBC24jyrg5GkTSUnxJvZW--LZnovP=s680-w680-h510-rw" width = "800" height = "200">
+      <img src = "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np0l7wX_V86Ku0oJe19J0qEEOInzfAdkwEkEHSkYkU-u8LWbyX107M2JxzBzxkCSXxNbEW4zXTbW-0ks7zgFSRv2UAzXLGjYdXBYqlGB8_Ef0lo-nCBx25lwYTa1GzWx0aG_7cq=s680-w680-h510-rw" width = "800" height = "200">
+      <img src = "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqip-2c-5GVrPTc7ocRhi241frXCqi5ijojnOzQIYL09eXqbFY_6rgITbmuvYZ6N9XARG5ViT_Dck-8Te3McCPvLQezNcZJ8RRvzpWjHYHghfWXi92ePoRf98LRhxjdiCnJSMiOLg=s680-w680-h510-rw" width = "800" height = "200">
+    </div>    
+
+    <h2>Amenities</h2>
+    <table>
+        <tr>
+          <td> Price </td>
+          <td> Size </td>
+          <td> Beds </td>
+          <td> Free WIFI </td>
+          <td> Included Breakfast </td>
+        </tr>
+        <tr>
+          <td> $500/night </td>
+          <td> 250sq ft </td>
+          <td> 1 King</td>
+          <td> Yes </td>
+          <td> Yes </td>
+        </tr>
+    </table>
+  </div>
+
+  </div>
+
+  <div class="carousel">
+    <div class="carousel-images">
+      <img src = "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq60G-eY1EvSwOX--6y-ourLVki-N_Qr6DWQLa79ToOpUNR3RadEZ7g06whN38n4d0peNgRV9rij60Tgr1Rw-ARE3grgOVYx8stDWlpt2iN6tqskThxHpksJAU_FKzm9m3Y0JXN=s680-w680-h510-rw" width = "800" height = "200">
+      <img src = "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqvcc7w0z1NcKpMBw7yuOWvCsIOrTxnHbb5QlfF_Kzi9atsjBqgj0WeNwKwGoXcvg-YH6dTIIQWDvYRyCzDAPq04yDLyMIybB50c4Ap3wCcC_3_BjP-HrpOJWmwo7vQLn1dzWraSg=s680-w680-h510-rw" width = "800" height = "200">
+      <img src = "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npYlOo2nO7E9GH-hecKkkKG59I76DoJSw4x8vZVxVojx0dprWedmtjGfUOtNtj5mjl_Q3zm_ESTGBpjTDV4AvJYxVxC_RiGXiAMvKHWQ7H7s_9iIMrg5iRLdzV6_92Wd7e_HdZ75g=s680-w680-h510-rw" width = "800" height = "200">
+    </div>    
+
+    <h2>Amenities</h2>
+    <table>
+        <tr>
+          <td> Price </td>
+          <td> Size </td>
+          <td> Beds </td>
+          <td> Free WIFI </td>
+          <td> Included Breakfast </td>
+        </tr>
+        <tr>
+          <td> $0.10/night </td>
+          <td> 250sq ft </td>
+          <td> 1 King</td>
+          <td> Yes </td>
+          <td> Yes </td>
+        </tr>
+    </table>
+  </div>
+
+  <script>
+    document.querySelectorAll(".carousel").forEach((carousel) => {
+      var index = 0;
+      var images = carousel.querySelectorAll(".carousel-images img");
+  
+      images[index].classList.add("active");
+  
+      function moveCarousel() {
+        images[index].classList.remove("active");
+        index += 1;
+  
+        if (index == -1) {
+          index = images.length - 1;
+        } else if (index == images.length){
+          index = 0;
+        }
+  
+        images[index].classList.add("active");
+      }
+  
+      setInterval (moveCarousel, 2000);
+    });
+  </script>
+</body>
+
+</html>
